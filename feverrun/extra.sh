@@ -1,10 +1,14 @@
+
 #!/usr/bin/env bash
 
 ## 添加你需要重启自动执行的任意命令，比如 ql repo
 ## 安装node依赖使用 pnpm install -g xxx xxx
-## 安装python依赖使用 pip3 install xxx
-
-## ql repo https://ghproxy.com/https://github.com/shufflewzc/faker3.git "jd_|jx_|gua_|jddj_|getJDCookie" "activity|backUp" "^jd[^_]|USER|function|utils|sendnotify|ZooFaker_Necklace.js|JDJRValidator_|sign_graphics_validate|ql"
-ql repo https://github.com/feverrun/my_scripts.git "jd_|jx_|gua|jddj|getCookie|getJDCookie" "backUp" "^(jd|JD|JS)[^_]|USER|sendNotify|utils"
-## ql raw https://raw.githubusercontent.com/shidahuilang/QL-/main/feverrun/Disable.py
-## task raw_feverrun_Disable.py
+## 安装python依赖使用 pip3 install PrettyTable
+#pip3 install PrettyTable
+ql repo https://github.com/feverrun/my_scripts.git "jd_|jx_|jddj|getCookie|getJDCookie" "backUp" "^(jd|JD|JS)[^_]|USER|sendNotify|utils"
+ql repo https://github.com/smiek2121/scripts.git "jd_|gua_" "" "ZooFaker_Necklace.js|JDJRValidator_Pure.js|sign_graphics_validate.js|cleancart_activity.js|jdCookie.js|sendNotify.js"
+#腾讯自选股
+ql raw https://raw.githubusercontent.com/leafxcy/JavaScript/main/txstockV2.js 
+#快手极速版
+ql raw https://raw.githubusercontent.com/leafxcy/JavaScript/main/ksjsb.js
+task disableDuplicateTasksImplement.py
